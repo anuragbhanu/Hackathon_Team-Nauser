@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/fiv.jpg" type="image/x-icon">
+    <title>Employe Me : Profile- Dilip Yadav</title>
+    <style>
+        * {
+            font-family: 'Ubuntu', sans-serif;
+            font-style: normal;
+
+        }
+
+        #navbar ul li a {
+
+            font-size: 1 rem;
+            padding: 0px 7px;
+            padding-bottom: 23px;
+            text-decoration: none;
+        }
+
+        #navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            position: sticky;
+            top: 0;
+
+
+
+        }
+
+        #navbar ul li a {
+            color: rgb(9, 13, 16);
+            display: block;
+            padding: 3px 22px;
+            border-radius: 22px;
+            font-family: 'Ubuntu', sans-serif;
+            text-decoration: none;
+
+
+        }
+
+        #navbar ul li a:hover {
+            color: black;
+            font-family: 'Ubuntu', sans-serif;
+            background-color: white;
+            transition: 0.5s;
+        }
+
+        #navbar ul {
+            display: flex;
+            list-style: none;
+            margin-inline-end: 15px;
+            bottom: 4px;
+            position: absolute;
+        }
+
+        #navbar img {
+            position: inherit;
+            /* margin: 20px 40px; */
+            right: 70%;
+            /* border: 2px solid rgba(53, 166, 215, 0.8); */
+
+        }
+
+        .box {
+            /* border: 2px solid black; */
+            background: rgba(53, 166, 215, 0.8);
+            height: 72px;
+            z-index: 1;
+        }
+
+        .container {
+            position: absolute;
+            width: 304px;
+            height: 371px;
+            left: 435px;
+            top: 176px;
+            background: #dfe1e0;
+            border: 3px solid #74180C;
+            border-radius: 15px;
+        }
+
+        .profile-img {
+            height: 100px;
+            width: 100px;
+            position: relative;
+            border-radius: 50px;
+            left: 100px;
+            top: 5px;
+
+        }
+
+        .container hr {
+            margin: 10px 21px;
+            color: black;
+            height: 1.5px;
+            color: black;
+            background: black;
+
+        }
+
+        .details {
+            margin: 12px 23px;
+
+        }
+
+
+
+        .btn {
+            margin: 3px 40px;
+            border-radius: 6px;
+            color: black;
+            background: #D0D406;
+            width: 225px;
+            height: 27px;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            background: #fafc94;
+        }
+
+        .container h3 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .hLine {
+            margin: 41px 35px;
+            height: 1.5px;
+            color: black;
+            background: black;
+
+        }
+
+        .back {
+            height: 30px;
+            width: 30px;
+        }
+
+        .img {
+            margin: 8px;
+            height: 28px;
+            width: 28px;
+            margin-top: -13px;
+            margin-left: 26px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="box">
+
+        <nav id="navbar">
+
+            <img src="img/logo.jpg" alt="img">
+
+           
+        </nav>
+
+    </div>
+
+    <section class="sec">
+        <hr class="hLine">
+        <a href="http://127.0.0.1:5500/Web%20Dev/Hackthon/DWL%20list.html"><img src="img/back.png" alt="" class=" img"></a>
+        <div class="container">
+            <img src="img/p3.png" alt="" class="profile-img">
+            <h3>Dilip Yadav</h3>
+            <hr>
+            <div class="details">
+                Age:- 42 years
+            </div>
+            <div class="details">
+                Gender:- Male
+            </div>
+            <div class="details">
+                Status:- Daily Wage Labourer
+            </div>
+            <div class="details">
+                Experienced:- 3 years
+            </div>
+            <div class="details">
+                Contact No.:- 9876555057
+            </div>
+            <button type="submit" class="btn">Service Charge:- Rs 250/hours</button>
+        </div>
+    </section>
+</body>
+
+</html>
